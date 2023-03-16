@@ -1,4 +1,62 @@
 
+body {
+  background-image: url("images/overlay.png"), url("images/bg.jpg");
+  background-repeat: repeat, no-repeat;
+  background-size: auto, 100% 100%;
+  background-attachment: fixed;
+  overflow-y: scroll;
+}
+
+.navbar-heading-text {
+  color: #ffffff;
+  font-family: 'Sacramento', cursive; 
+}
+
+.navbar-menu-text {
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 23px;
+}
+
+.my-border-bottom {
+  border-style: groove;
+  border-width: 1px 0px 2px 0px;
+  border-color: #ecb4a3;
+}
+
+
+.my-pink {
+  background-color: #ecb4a3;
+}
+
+.my-title {
+  position: absolute;
+  left: 40%;
+  top: 50%; 
+  color: #ffffff;
+}
+
+.my-title h2 {
+  font-size: 2rem;
+  line-height: 0.8;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.my-title p {
+  font-size: 1.2rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.my-footer-text {
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: #eaf3fa;
+}
+
+.my-footer-text a:hover {
+  color: #fec2c2;
+}
+
 
 .bd-placeholder-img {
     font-size: 1.125rem;
